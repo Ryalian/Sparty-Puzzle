@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/spartyImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:contentDescription="@string/solved_discription"
+        android:padding="20dp"
+        android:src="@drawable/sparty" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onStartPuzzle"
+            android:padding="0dp"
+            android:text="@string/start_puzzle" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="@string/welcome_puzzle"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Puzzle</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start_puzzle">Start Puzzle</string>
+    <string name="solved_discription">Picture of the solved puzzle</string>
+    <string name="welcome_puzzle">Welcome to QIJUN\'s Puzzle</string>
+    <string name="title_activity_puzzle">PuzzleActivity</string>
+    <string name="hurrah">Hurrah!!!</string>
+    <string name="completed_puzzle">You have completed the puzzle!</string>
+    <string name="shuffle">Shuffle</string>
+</resources>
